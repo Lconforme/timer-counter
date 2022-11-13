@@ -1,12 +1,24 @@
-
-/* 
-
-    You can write your own styles here...
+.timer{
+    background-color:rgb(201, 36, 77);
     
-    
-    ...Or you can use the import command to include 
-    other sylesheets into your bunde as well, e.j:
-    
-    import 'relative/path/to/stylesheet.scss';
+}
+.timer-container{
+    background-color: white;
+    width: 20px;
+    height: 20px;
+    padding: 50px;
+}
+.stop,.restart {
+    margin-top: 20px;
+    margin-bottom: 40px;
+    color: white;
+    font-size: 20px;
+    background-color: black;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
 
-*/
+.stop {
+    margin-left: 35px;
+}
